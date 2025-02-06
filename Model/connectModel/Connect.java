@@ -8,7 +8,7 @@ public class Connect {
 	public void connectDB() throws Exception {
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 		
-		String st = "jdbc:sqlserver://LAPTOP-C1AI2A8S:1433;databaseName=OCMSJava;user=sa;password=123";
+		String st = "jdbc:sqlserver://******:1433;databaseName=******;user=sa;password=***";
 		
 		cn = DriverManager.getConnection(st);
 	}
